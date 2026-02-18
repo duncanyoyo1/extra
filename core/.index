@@ -37,6 +37,7 @@ fbalpha2012_neogeo_libretro.so.zip
 fbalpha_libretro.so.zip
 fbneo_libretro.so.zip
 fceumm_libretro.so.zip
+ffmpeg_libretro.so.zip
 fixgb_libretro.so.zip
 flycast_libretro.so.zip
 fmsx_libretro.so.zip
@@ -91,6 +92,7 @@ mesen-s_libretro.so.zip
 mgba_libretro.so.zip
 minivmac_libretro.so.zip
 mu_libretro.so.zip
+mupen64plus_libretro.so.zip
 nekop2_libretro.so.zip
 neocd_libretro.so.zip
 nestopia_libretro.so.zip
@@ -102,6 +104,7 @@ opera_libretro.so.zip
 parallel_n64_libretro.so.zip
 pcsx_rearmed_libretro.so.zip
 picodrive_libretro.so.zip
+play_libretro.so.zip
 pocketcdg_libretro.so.zip
 pokemini_libretro.so.zip
 potator_libretro.so.zip
@@ -129,6 +132,7 @@ stella_libretro.so.zip
 swanstation_libretro.so.zip
 tgbdual_libretro.so.zip
 theodore_libretro.so.zip
+tic80_libretro.so.zip
 tyrquake_libretro.so.zip
 uw8_libretro.so.zip
 uzem_libretro.so.zip
