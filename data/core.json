@@ -599,6 +599,26 @@
       ]
     }
   },
+  "ffmpeg": {
+    "source": "https://github.com/libretro/RetroArch.git",
+    "branch": "a8d0ad0",
+    "directory": "libretro-ffmpeg",
+    "output": "ffmpeg_libretro.so",
+    "make": {
+      "file": "Makefile",
+      "args": "-C cores/libretro-ffmpeg HAVE_SSA=0",
+      "target": ""
+    },
+    "symbols": 0,
+    "commands": {
+      "pre-make": [
+      "./configure"
+      ],
+      "post-make": [
+      "mv cores/libretro-ffmpeg/ffmpeg_libretro.so ."
+      ]
+      }
+  },
   "flycast": {
     "source": "https://github.com/flyinghead/flycast",
     "branch": "4747e61",
