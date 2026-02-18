@@ -37,7 +37,6 @@
 2026-01-15 ba5bb1db fbalpha_libretro.so.zip
 2026-02-10 5bd9845b fbneo_libretro.so.zip
 2026-01-15 2b90c675 fceumm_libretro.so.zip
-2026-02-10 8ac74314 ffmpeg_libretro.so.zip
 2026-01-15 c48f62e6 fixgb_libretro.so.zip
 2026-02-10 dae722cc flycast_libretro.so.zip
 2026-01-15 96226cec fmsx_libretro.so.zip
@@ -104,7 +103,6 @@
 2026-01-18 86b72950 parallel_n64_libretro.so.zip
 2026-02-09 e8a36928 pcsx_rearmed_libretro.so.zip
 2026-02-09 c66390a5 picodrive_libretro.so.zip
-2026-02-14 7c1525fd play_libretro.so.zip
 2026-01-16 aedb4e35 pocketcdg_libretro.so.zip
 2026-01-16 f7cb3443 pokemini_libretro.so.zip
 2026-01-16 0f913b65 potator_libretro.so.zip
