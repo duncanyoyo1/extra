@@ -1905,6 +1905,26 @@
     },
     "symbols": 0
   },
+  "tic80": {
+    "source": "https://github.com/nesbox/TIC-80",
+    "branch": "dfdae65",
+    "directory": "TIC-80",
+    "output": "tic80_libretro.so",
+    "make": {
+      "file": "Makefile",
+      "args": "",
+      "target": ""
+    },
+    "symbols": 0,
+    "commands": {
+      "pre-make": [
+        "mkdir -p build",
+        "cd build",
+        "printf 'Running CMAKE Build\\n'",
+        "cmake .. -DBUILD_PLAYER=OFF -DBUILD_SDL=OFF -DBUILD_TOOLS=OFF -DBUILD_LIBRETRO=ON"
+      ]
+    }
+  },
   "tyrquake": {
     "source": "https://github.com/libretro/tyrquake",
     "branch": "dfdae65",
