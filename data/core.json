@@ -1522,6 +1522,29 @@
     },
     "symbols": 0
   },
+  "play": {
+    "source": "https://github.com/jpd002/Play-",
+    "branch": "b75abf3",
+    "directory": "Play-",
+    "output": "play_libretro.so",
+    "make": {
+      "file": "",
+      "args": "",
+      "target": "",
+      "skip": "1"
+    },
+    "symbols": 0,
+    "commands": {
+      "pre-make": [
+      "mkdir -p build;cd build",
+      "cmake .. -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Release -DBUILD_LIBRETRO_CORE=ON -DBUILD_PLAY=OFF -DBUILD_TESTS=OFF -DENABLE_AMAZON_S3=OFF",
+      "cmake --build . --target play_libretro"
+      ],
+      "post-make": [
+      "mv build/Source/ui_libretro/play_libretro.so ."
+      ]
+    }
+  },
   "pocketcdg": {
     "source": "https://github.com/libretro/libretro-pocketcdg",
     "branch": "c1fac9f",
