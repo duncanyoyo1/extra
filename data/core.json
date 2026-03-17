@@ -304,6 +304,27 @@
     },
     "symbols": 0
   },
+  "dirksimple": {
+    "source": "https://github.com/icculus/DirkSimple",
+    "branch": "5aea3e2",
+    "directory": "DirkSimple",
+    "output": "dirksimple_libretro.so",
+    "make": {
+      "file": "Makefile",
+      "args": "",
+      "target": "",
+      "skip": "1"
+    },
+    "symbols": 0,
+    "commands": {
+      "pre-make": [
+      "cmake -B cmake-build && cmake --build cmake-build"
+      ],
+      "post-make":[
+      "mv cmake-build/dirksimple_libretro.so ."
+      ]
+    }
+  },
   "easyrpg": {
     "source": "https://github.com/EasyRPG/Player",
     "branch": "df4e1ee",
@@ -1501,7 +1522,14 @@
     "output": "parallel_n64_libretro.so",
     "make": {
       "file": "Makefile",
-      "args": "WITH_DYNAREC=aarch64",
+      "args":  [ "WITH_DYNAREC=aarch64",
+        "CPUFLAGS+=-DNO_ASM",
+        "CPUFLAGS+=-DARM",
+        "CPUFLAGS+=-DARM_ASM",
+        "CPUFLAGS+=-DDONT_WANT_ARM_OPTIMIZATIONS",
+        "CPUFLAGS+=-DARM_FIX",
+        "CPUFLAGS+=-DCLASSIC",
+        "CPUFLAGS+=-DARM64" ],
       "target": ""
     },
     "symbols": 0
