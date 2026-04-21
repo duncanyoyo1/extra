@@ -155,6 +155,12 @@
     "type": "core",
     "help": ""
   },
+    {
+    "name": "DirkSimple",
+    "url": "https://github.com/MustardOS/extra/releases/latest/download/Extra.-.DirkSimple.muxzip",
+    "type": "core",
+    "help": ""
+  },
   {
     "name": "Discrete Integrated Circuit Emulator",
     "url": "https://github.com/MustardOS/extra/releases/latest/download/Extra.-.Discrete.Integrated.Circuit.Emulator.muxzip",
